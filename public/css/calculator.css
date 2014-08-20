@@ -1,0 +1,27 @@
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: chocolate;
+    color: black;
+    display: none;
+}
+.letter {
+    font-size: 32px;
+}
+sub {
+    font-size: 15px;
+}
+
+.word_bonus_x1 {
+    background-color: chocolate;
+    display: block;
+}
+.word_bonus_x2 {
+    background-color: blue;
+    display: block;
+}
+.word_bonus_x3 {
+    background-color: red;
+    display: block;
+}

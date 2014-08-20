@@ -1,0 +1,18 @@
+html
+  head
+    script src='javascript/calculator.js'
+    link rel='stylesheet' type='text/css' href='css/calculator.css'
+  body
+    div
+      input name="source_word" type='text' oninput='cp()' maxlength='15' autofocus='true' autocomplete="off"
+    div
+      table
+        tr
+          - for td in 1..15
+            td class='letters' name='letters' onclick='bonus(this)'
+        tr
+          td onclick='add_word(1)' class='word_bonus_x1' x1
+          td onclick='add_word(2)' class='word_bonus_x2' x2
+          td onclick='add_word(3)' class='word_bonus_x3' x3
+    div
+      label name='result_word'
